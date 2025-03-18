@@ -343,41 +343,41 @@ Microservices Architecture: Divide as funcionalidades da MEx™ em pequenos serv
       "bot_odoo_username": "carlos.almeida",
       "time": [],
       "reporta_a": "pedro.silva"
-    },
-        "Engenheira (Líder de Qualidade)": {
-      "nome": "Clara Vieira",
-      "divisao": "Divisão de Auditoria",
-      "responsabilidades": "Gestão da Qualidade, ISO 9001...",
-      "bot_odoo_username": "clara.vieira",
-      "time": [],
-      "reporta_a": "jose.sobrinho"
-    },
-    "Auditor Interno": {
-      "nome": "André Campos",
-      "divisao": "Divisão de Auditoria",
-      "responsabilidades": "Auditorias internas e externas.",
-      "bot_odoo_username": "andre.campos",
-      "time": [],
-      "reporta_a": "clara.vieira"
-    },
-      "Auditor Interno Ana Clara": {
-      "nome": "Ana Clara",
-      "divisao": "Divisão de Auditoria",
-      "responsabilidades": "Auditorias internas e externas.",
-      "bot_odoo_username": "anaclara.auditora",
-      "time": [],
-      "reporta_a": "andre.campos"
-    },
-      "Auditor Interno Lucas Ferreira": {
-      "nome": "Lucas Ferreira",
-      "divisao": "Divisão de Auditoria",
-      "responsabilidades": "Auditorias internas e externas.",
-      "bot_odoo_username": "lucasferreira.auditor",
-      "time": [],
-      "reporta_a": "andre.campos"
-    }
-  }
-}
+                },
+                    "Engenheira (Líder de Qualidade)": {
+                  "nome": "Clara Vieira",
+                  "divisao": "Divisão de Auditoria",
+                  "responsabilidades": "Gestão da Qualidade, ISO 9001...",
+                  "bot_odoo_username": "clara.vieira",
+                  "time": [],
+                  "reporta_a": "jose.sobrinho"
+                },
+                "Auditor Interno": {
+                  "nome": "André Campos",
+                  "divisao": "Divisão de Auditoria",
+                  "responsabilidades": "Auditorias internas e externas.",
+                  "bot_odoo_username": "andre.campos",
+                  "time": [],
+                  "reporta_a": "clara.vieira"
+                },
+                  "Auditor Interno Ana Clara": {
+                  "nome": "Ana Clara",
+                  "divisao": "Divisão de Auditoria",
+                  "responsabilidades": "Auditorias internas e externas.",
+                  "bot_odoo_username": "anaclara.auditora",
+                  "time": [],
+                  "reporta_a": "andre.campos"
+                },
+                  "Auditor Interno Lucas Ferreira": {
+                  "nome": "Lucas Ferreira",
+                  "divisao": "Divisão de Auditoria",
+                  "responsabilidades": "Auditorias internas e externas.",
+                  "bot_odoo_username": "lucasferreira.auditor",
+                  "time": [],
+                  "reporta_a": "andre.campos"
+                }
+              }
+            }
 
 4. Criação dos Bots (DeepSeek Clones):
 
@@ -571,75 +571,75 @@ Odoo Reports: Gerar relatórios personalizados com base nos dados do Odoo.
 
 5. Tree de Pastas e Arquivos:
 
-      mex_governance/
-      ├── README.md
-      ├── docs/
-      │   ├── arquitetura.md
-      │   ├── odoo_setup.md
-      │   ├── bots_config.md
-      │   ├── api_integracao.md
-      │   ├── modelo_gestao_qualidade.md
-      │   ├── processos/
-      │   │   ├── recrutamento_selecao.md
-      │   │   ├── gestao_projetos.md
-      │   │   ├── vendas.md
-      │   │   ├── compras.md
-      │   │   ├── manutencao.md
-      │   │   ├── gestao_qualidade.md
-      │   │   ├── gestao_ambiental.md
-      │   │   ├── gestao_energia.md
-      │   │   ├── gestao_riscos.md
-      │   │   ├── suporte_cliente.md
-      │   │   ├── gestao_financeira.md
-      │   │   └── ... (outros processos)
-      │   └── ...
-      ├── config/
-      │   ├── organograma.json
-      │   ├── odoo_config.json
-      │   └── ...
-      ├── scripts/
-      │   ├── odoo_install.sh
-      │   ├── bot_creation.py
-      │   └── ...
-      ├── modules/
-      │   ├── mex_crm/
-      │   ├── mex_projetos/
-      │   ├── mex_qualidade/
-      │   ├── mex_ambiental/
-      │   ├── mex_energia/
-      │   ├── mex_riscos/
-      │   ├── mex_vendas/
-      │   ├── mex_compras/
-      │   ├── mex_estoque/
-      │   ├── mex_contabilidade/
-      │   ├── mex_rh/
-      │   ├── mex_helpdesk/
-      │   ├── mex_marketing/
-      │   ├── mex_seguranca/
-      │   ├── mex_compliance/
-      │   ├── mex_inovacao/
-      │   └── ... (outros módulos Odoo)
-      ├── libs/
-      │   ├── odoo_api.py
-      │   └── ...
-      ├── tests/
-      │   ├── odoo_tests.py
-      │   ├── bot_tests.py
-      │   └── ...
-      ├── logs/
-      │   ├── recrutamento_selecao.log
-      │   ├── gestao_projetos.log
-      │   ├── vendas.log
-      │   ├── compras.log
-      │   ├── manutencao.log
-      │   ├── gestao_qualidade.log
-      │   ├── gestao_ambiental.log
-      │   ├── gestao_energia.log
-      │   ├── gestao_riscos.log
-      │   ├── suporte_cliente.log
-      │   ├── gestao_financeira.log
-      │   └── ... (outros logs)
-      └── ...
+                  mex_governance/
+                  ├── README.md
+                  ├── docs/
+                  │   ├── arquitetura.md
+                  │   ├── odoo_setup.md
+                  │   ├── bots_config.md
+                  │   ├── api_integracao.md
+                  │   ├── modelo_gestao_qualidade.md
+                  │   ├── processos/
+                  │   │   ├── recrutamento_selecao.md
+                  │   │   ├── gestao_projetos.md
+                  │   │   ├── vendas.md
+                  │   │   ├── compras.md
+                  │   │   ├── manutencao.md
+                  │   │   ├── gestao_qualidade.md
+                  │   │   ├── gestao_ambiental.md
+                  │   │   ├── gestao_energia.md
+                  │   │   ├── gestao_riscos.md
+                  │   │   ├── suporte_cliente.md
+                  │   │   ├── gestao_financeira.md
+                  │   │   └── ... (outros processos)
+                  │   └── ...
+                  ├── config/
+                  │   ├── organograma.json
+                  │   ├── odoo_config.json
+                  │   └── ...
+                  ├── scripts/
+                  │   ├── odoo_install.sh
+                  │   ├── bot_creation.py
+                  │   └── ...
+                  ├── modules/
+                  │   ├── mex_crm/
+                  │   ├── mex_projetos/
+                  │   ├── mex_qualidade/
+                  │   ├── mex_ambiental/
+                  │   ├── mex_energia/
+                  │   ├── mex_riscos/
+                  │   ├── mex_vendas/
+                  │   ├── mex_compras/
+                  │   ├── mex_estoque/
+                  │   ├── mex_contabilidade/
+                  │   ├── mex_rh/
+                  │   ├── mex_helpdesk/
+                  │   ├── mex_marketing/
+                  │   ├── mex_seguranca/
+                  │   ├── mex_compliance/
+                  │   ├── mex_inovacao/
+                  │   └── ... (outros módulos Odoo)
+                  ├── libs/
+                  │   ├── odoo_api.py
+                  │   └── ...
+                  ├── tests/
+                  │   ├── odoo_tests.py
+                  │   ├── bot_tests.py
+                  │   └── ...
+                  ├── logs/
+                  │   ├── recrutamento_selecao.log
+                  │   ├── gestao_projetos.log
+                  │   ├── vendas.log
+                  │   ├── compras.log
+                  │   ├── manutencao.log
+                  │   ├── gestao_qualidade.log
+                  │   ├── gestao_ambiental.log
+                  │   ├── gestao_energia.log
+                  │   ├── gestao_riscos.log
+                  │   ├── suporte_cliente.log
+                  │   ├── gestao_financeira.log
+                  │   └── ... (outros logs)
+                  └── ...
 
 8. Modelo de Gestão da Qualidade MEx™ - Versão 4.4 Big Four Senior Audit
 
