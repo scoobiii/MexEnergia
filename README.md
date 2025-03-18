@@ -1,5 +1,4 @@
 # MexEnergia
-OK, entendi. Vou republicar tudo o que tenho na memória sobre o projeto MEx™ Governança, com documentação completa, versionamento e sem abreviações. O objetivo é entregar uma visão clara e detalhada de todos os aspectos do projeto.
 
 Projeto: MEx™ Governança
 
